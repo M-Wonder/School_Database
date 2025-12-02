@@ -59,6 +59,7 @@ CREATE INDEX idx_student_grades_student ON student_grades(student_id);
 -- Insert grades
 INSERT INTO grades (grade_name, grade_level, section) VALUES
 ('Grade 1-A', 1, 'A'),
+('Grade 1-B , 1, 'B'),
 ('Grade 2-A', 2, 'A'),
 ('Grade 3-A', 3, 'A'),
 ('Grade 4-A', 4, 'A'),
