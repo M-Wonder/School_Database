@@ -1,4 +1,5 @@
 # School_Database
+<<<<<<< HEAD
 #Direct PostgreSQL Installation 
 # Install PostgreSQL
 sudo dnf install postgresql postgresql-server
@@ -40,3 +41,16 @@ chmod +x setup_postgres.sh
 # Run it (from the directory containing init.sql)
 sudo ./setup_postgres.sh
 
+=======
+#to pull snd run on another pc
+# Pull the image
+docker pull mayabiwonder/school-db:latest
+
+# Run the container
+docker run -d -p 5432:5432 \
+  -e POSTGRES_DB=school_db \
+  -e POSTGRES_USER=school_admin \
+  -e POSTGRES_PASSWORD=school_pass_2024 \
+  --name school_postgres_db \
+  mayabiwonder/school-db:latest
+>>>>>>> 9bca8fd (docker deployment and settings)
