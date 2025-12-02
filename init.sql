@@ -79,17 +79,17 @@ INSERT INTO subjects (subject_name, subject_code) VALUES
 ('Music', 'MUS101');
 
 -- Insert sample students
-INSERT INTO students (first_name, last_name, date_of_birth, email, phone, address, enrollment_date) VALUES
-('John', 'Smith', '2010-05-15', 'john.smith@school.com', '+254712345678', '123 Main St, Nairobi', '2020-01-15'),
-('Emily', 'Johnson', '2011-08-22', 'emily.johnson@school.com', '+254723456789', '456 Oak Ave, Nairobi', '2020-01-15'),
-('Michael', 'Williams', '2010-03-10', 'michael.williams@school.com', '+254734567890', '789 Pine Rd, Nairobi', '2020-01-15'),
-('Sarah', 'Brown', '2011-11-05', 'sarah.brown@school.com', '+254745678901', '321 Elm St, Nairobi', '2020-01-15'),
-('David', 'Jones', '2010-07-18', 'david.jones@school.com', '+254756789012', '654 Maple Dr, Nairobi', '2020-01-15'),
-('Emma', 'Garcia', '2011-02-28', 'emma.garcia@school.com', '+254767890123', '987 Cedar Ln, Nairobi', '2021-01-15'),
-('James', 'Martinez', '2010-09-14', 'james.martinez@school.com', '+254778901234', '147 Birch Ct, Nairobi', '2021-01-15'),
-('Olivia', 'Rodriguez', '2011-06-30', 'olivia.rodriguez@school.com', '+254789012345', '258 Spruce Way, Nairobi', '2021-01-15'),
-('William', 'Lopez', '2010-12-25', 'william.lopez@school.com', '+254790123456', '369 Willow Rd, Nairobi', '2021-01-15'),
-('Sophia', 'Wilson', '2011-04-12', 'sophia.wilson@school.com', '+254701234567', '741 Ash Blvd, Nairobi', '2021-01-15');
+INSERT INTO students (first_name, last_name, hostels, date_of_birth, email, phone, address, enrollment_date) VALUES
+('John', 'Smith', 'kilimanjaro', '2010-05-15', 'john.smith@school.com', '+254712345678', '123 Main St, Nairobi', '2020-01-15'),
+('Emily', 'Johnson', 'menengai', '2011-08-22', 'emily.johnson@school.com', '+254723456789', '456 Oak Ave, Nairobi', '2020-01-15'),
+('Michael', 'Williams', 'mountin', '2010-03-10', 'michael.williams@school.com', '+254734567890', '789 Pine Rd, Nairobi', '2020-01-15'),
+('Sarah', 'Brown', 'kenya', '2011-11-05', 'sarah.brown@school.com', '+254745678901', '321 Elm St, Nairobi', '2020-01-15'),
+('David', 'Jones', 'tanzania', '2010-07-18', 'david.jones@school.com', '+254756789012', '654 Maple Dr, Nairobi', '2020-01-15'),
+('Emma', 'Garcia', 'uganda', '2011-02-28', 'emma.garcia@school.com', '+254767890123', '987 Cedar Ln, Nairobi', '2021-01-15'),
+('James', 'Martinez', 'uganda', '2010-09-14', 'james.martinez@school.com', '+254778901234', '147 Birch Ct, Nairobi', '2021-01-15'),
+('Olivia', 'Rodriguez', 'uganda', '2011-06-30', 'olivia.rodriguez@school.com', '+254789012345', '258 Spruce Way, Nairobi', '2021-01-15'),
+('William', 'Lopez', 'tanzania', '2010-12-25', 'william.lopez@school.com', '+254790123456', '369 Willow Rd, Nairobi', '2021-01-15'),
+('Sophia', 'Wilson','tanzania', '2011-04-12', 'sophia.wilson@school.com', '+254701234567', '741 Ash Blvd, Nairobi', '2021-01-15');
 
 -- Assign students to grades
 INSERT INTO student_grades (student_id, grade_id, academic_year) VALUES
