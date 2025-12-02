@@ -5,6 +5,7 @@ CREATE TABLE students (
     student_id SERIAL PRIMARY KEY,
     first_name VARCHAR(50) NOT NULL,
     last_name VARCHAR(50) NOT NULL,
+    hostels VARCHAR(50) NOT NULL,
     date_of_birth DATE NOT NULL,
     email VARCHAR(100) UNIQUE,
     phone VARCHAR(20),
